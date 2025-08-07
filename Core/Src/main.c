@@ -21,7 +21,7 @@
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
-
+#include "stm32wlxx_nucleo_radio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -43,6 +43,8 @@
 
 UART_HandleTypeDef hlpuart1;
 
+SUBGHZ_HandleTypeDef hsubghz;
+
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -51,8 +53,10 @@ UART_HandleTypeDef hlpuart1;
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_LPUART1_UART_Init(void);
+static void MX_SUBGHZ_Init(void);
 /* USER CODE BEGIN PFP */
-
+void Configure_2FSK_Radio(void);
+void Transmit_2FSK_Data(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -101,27 +105,25 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_LPUART1_UART_Init();
+  MX_SUBGHZ_Init();
   /* USER CODE BEGIN 2 */
-
+  // Configure the radio for 2FSK transmission
+  Configure_2FSK_Radio();
+  printf("2FSK Radio configuration complete\r\n");
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-
-    /* -- Sample board code for User push-button in interrupt mode ---- */
+    // Transmit 2FSK data packet
+    Transmit_2FSK_Data();
+    
+    // Blink LED to show activity
     HAL_GPIO_TogglePin(LD1_GPIO_Port, LD1_Pin);
+    
+    // Wait before next transmission
     HAL_Delay(delay);
-    printf("LED 1 Toggled!\r\n");
-
-    HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
-    HAL_Delay(delay);
-    printf("LED 2 Toggled!\r\n");
-
-    HAL_GPIO_TogglePin(LD3_GPIO_Port, LD3_Pin);
-    HAL_Delay(delay);
-    printf("LED 3 Toggled!\r\n");
 
     /* USER CODE END WHILE */
 
@@ -221,6 +223,32 @@ static void MX_LPUART1_UART_Init(void)
 }
 
 /**
+  * @brief SUBGHZ Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_SUBGHZ_Init(void)
+{
+
+  /* USER CODE BEGIN SUBGHZ_Init 0 */
+
+  /* USER CODE END SUBGHZ_Init 0 */
+
+  /* USER CODE BEGIN SUBGHZ_Init 1 */
+
+  /* USER CODE END SUBGHZ_Init 1 */
+  hsubghz.Init.BaudratePrescaler = SUBGHZSPI_BAUDRATEPRESCALER_8;
+  if (HAL_SUBGHZ_Init(&hsubghz) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN SUBGHZ_Init 2 */
+
+  /* USER CODE END SUBGHZ_Init 2 */
+
+}
+
+/**
   * @brief GPIO Initialization Function
   * @param None
   * @retval None
@@ -275,7 +303,128 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+void Configure_2FSK_Radio(void)
+{
+  uint8_t buffer[16];
+  HAL_StatusTypeDef status;
+  
+  // Initialize BSP radio (required for RF switch control)
+  BSP_RADIO_Init();
+  printf("BSP Radio initialized\r\n");
+  
+  // Set standby mode
+  buffer[0] = 0x01; // STANDBY_RC
+  status = HAL_SUBGHZ_ExecSetCmd(&hsubghz, RADIO_SET_STANDBY, buffer, 1);
+  if (status != HAL_OK) {
+    printf("ERROR: Failed to set standby mode\r\n");
+    return;
+  }
+  HAL_Delay(10);
+  printf("Radio set to standby mode\r\n");
+  
+  // Set packet type to 2FSK
+  buffer[0] = 0x00; // PACKET_TYPE_GFSK
+  status = HAL_SUBGHZ_ExecSetCmd(&hsubghz, RADIO_SET_PACKETTYPE, buffer, 1);
+  if (status != HAL_OK) {
+    printf("ERROR: Failed to set packet type\r\n");
+    return;
+  }
+  printf("Packet type set to 2FSK\r\n");
+  
+  // Set RF frequency (915 MHz)
+  // Frequency calculation: Freq = (FreqInHz * 2^25) / 32MHz
+  uint32_t freq = (uint32_t)((double)915000000 * 33554432 / 32000000); // Convert to register value
+  buffer[0] = (freq >> 24) & 0xFF;
+  buffer[1] = (freq >> 16) & 0xFF;
+  buffer[2] = (freq >> 8) & 0xFF;
+  buffer[3] = freq & 0xFF;
+  status = HAL_SUBGHZ_ExecSetCmd(&hsubghz, RADIO_SET_RFFREQUENCY, buffer, 4);
+  if (status != HAL_OK) {
+    printf("ERROR: Failed to set RF frequency\r\n");
+    return;
+  }
+  printf("RF frequency set to 915 MHz\r\n");
+  
+  // Set modulation parameters for 2FSK
+  buffer[0] = 0x06; // BitRate MSB (50kbps)
+  buffer[1] = 0x40; // BitRate middle
+  buffer[2] = 0x00; // BitRate LSB
+  buffer[3] = 0x08; // ModulationShaping - Gaussian BT 0.5
+  buffer[4] = 0x0A; // Bandwidth - 117.3 kHz
+  buffer[5] = 0x00; // FreqDev MSB (25 kHz)
+  buffer[6] = 0x66; // FreqDev middle  
+  buffer[7] = 0x66; // FreqDev LSB
+  status = HAL_SUBGHZ_ExecSetCmd(&hsubghz, RADIO_SET_MODULATIONPARAMS, buffer, 8);
+  if (status != HAL_OK) {
+    printf("ERROR: Failed to set modulation parameters\r\n");
+    return;
+  }
+  printf("2FSK modulation parameters configured\r\n");
+  
+  // Set packet parameters
+  buffer[0] = 0x00; // Preamble length MSB
+  buffer[1] = 0x08; // Preamble length LSB (8 bits)
+  buffer[2] = 0x04; // Preamble detector length (4 bits)
+  buffer[3] = 0x07; // SyncWord length (7 bits)
+  buffer[4] = 0x01; // AddrComp (Node address filtering disabled)
+  buffer[5] = 0x00; // Packet type (fixed length)
+  buffer[6] = 0x0A; // Payload length (10 bytes)
+  buffer[7] = 0x01; // CRC type (1 byte)
+  buffer[8] = 0x02; // Whitening (enabled)
+  status = HAL_SUBGHZ_ExecSetCmd(&hsubghz, RADIO_SET_PACKETPARAMS, buffer, 9);
+  if (status != HAL_OK) {
+    printf("ERROR: Failed to set packet parameters\r\n");
+    return;
+  }
+  printf("Packet parameters configured\r\n");
+  
+  // Set TX power (+14 dBm)
+  buffer[0] = 0x0E; // Power level
+  buffer[1] = 0x07; // Power amplifier ramp time
+  status = HAL_SUBGHZ_ExecSetCmd(&hsubghz, RADIO_SET_TXPARAMS, buffer, 2);
+  if (status != HAL_OK) {
+    printf("ERROR: Failed to set TX parameters\r\n");
+    return;
+  }
+  printf("TX power set to +14 dBm\r\n");
+}
 
+void Transmit_2FSK_Data(void)
+{
+  uint8_t buffer[10] = "Hello RF!"; // 9 chars + null terminator = 10 bytes
+  HAL_StatusTypeDef status;
+  
+  // Configure RF switch for TX (High Power mode)
+  BSP_RADIO_ConfigRFSwitch(RADIO_SWITCH_RFO_HP);
+  printf("RF switch configured for TX (High Power)\r\n");
+  
+  // Write payload to buffer
+  status = HAL_SUBGHZ_WriteBuffer(&hsubghz, 0x00, buffer, 10);
+  if (status != HAL_OK) {
+    printf("ERROR: Failed to write buffer\r\n");
+    return;
+  }
+  printf("Data written to TX buffer: %s\r\n", buffer);
+  
+  // Set TX mode (no timeout)
+  buffer[0] = 0x00; // Timeout MSB
+  buffer[1] = 0x00; // Timeout middle
+  buffer[2] = 0x00; // Timeout LSB
+  status = HAL_SUBGHZ_ExecSetCmd(&hsubghz, RADIO_SET_TX, buffer, 3);
+  if (status != HAL_OK) {
+    printf("ERROR: Failed to start TX\r\n");
+    return;
+  }
+  printf("Transmitting 2FSK packet...\r\n");
+  
+  // Wait for TX done (simplified - in real app use interrupts)
+  HAL_Delay(100);
+  
+  // Turn off RF switch after transmission
+  BSP_RADIO_ConfigRFSwitch(RADIO_SWITCH_OFF);
+  printf("RF switch turned off\r\n");
+  printf("Transmission completed\r\n");
+}
 /* USER CODE END 4 */
 
 /**
