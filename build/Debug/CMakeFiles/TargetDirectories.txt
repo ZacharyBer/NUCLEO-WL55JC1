@@ -1,0 +1,6 @@
+/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/CMakeFiles/SingleWL55.dir
+/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/CMakeFiles/edit_cache.dir
+/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/CMakeFiles/rebuild_cache.dir
+/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
