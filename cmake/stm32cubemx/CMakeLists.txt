@@ -6,8 +6,8 @@ set(MX_Defines_Syms
 	USE_NUCLEO_64 
 	CORE_CM4 
 	USE_HAL_DRIVER 
-	USE_BSP_DRIVER
 	STM32WL55xx
+	USE_BSP_DRIVER
     $<$<CONFIG:Debug>:DEBUG>
 )
 
