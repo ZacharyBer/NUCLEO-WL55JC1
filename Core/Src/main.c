@@ -24,6 +24,7 @@
 /* USER CODE BEGIN Includes */
 #include "radio.h"
 #include <stdio.h>
+#include <string.h> // Include string.h for memcpy
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -34,14 +35,13 @@
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define RF_FREQUENCY                                915000000 // New frequency: 915 MHz
-#define TX_OUTPUT_POWER                             14        // 14 dBm output power
+#define RX_CHANNEL                                  30        // The channel to listen on
 #define FSK_DATARATE                                1200      // 1200 bps
 #define FSK_BANDWIDTH                               150000    // 150 kHz
 #define FSK_DEVIATION                               8000      // 8 kHz
 #define FSK_PREAMBLE_LENGTH                         8         // 8 byte preamble
-#define TX_TIMEOUT_VALUE                            1000      // Timeout for transmission in ms
+#define RX_TIMEOUT_VALUE                            0         // Timeout for reception in ms. 0 = continuous RX
 #define BUFFER_SIZE                                 64        // Size of the data buffer
-// Sync word and packet parameters are configured automatically by the radio driver
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -56,8 +56,7 @@ UART_HandleTypeDef hlpuart1;
 SUBGHZ_HandleTypeDef hsubghz;
 
 /* USER CODE BEGIN PV */
-uint8_t tx_buffer[BUFFER_SIZE];
-uint8_t buffer_index = 0;
+uint8_t rx_buffer[BUFFER_SIZE];
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -65,8 +64,7 @@ void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_LPUART1_UART_Init(void);
 /* USER CODE BEGIN PFP */
-void Configure_Continuous_Carrier(void);
-void Configure_2FSK_Transmission(void);
+void Configure_Rx_Mode(void);
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
@@ -82,6 +80,19 @@ PUTCHAR_PROTOTYPE {
   return ch;
 }
 
+// Callback function for when a message is successfully received
+void OnRxDone(uint8_t *payload, uint16_t size, int16_t rssi, int8_t snr)
+{
+  // Print the received message to the console
+  printf("Received message on channel %d: ", RX_CHANNEL);
+  for (uint16_t i = 0; i < size; i++) {
+    printf("0x%02X ", payload[i]);
+  }
+  printf("\r\n");
+
+  // Re-enter receive mode to listen for the next message
+  Radio.Rx(RX_TIMEOUT_VALUE);
+}
 /* USER CODE END 0 */
 
 /**
@@ -116,9 +127,12 @@ int main(void)
   MX_SubGHz_Phy_Init();
   /* USER CODE BEGIN 2 */
   
-  // Configure the radio for 2FSK transmission
-  Configure_2FSK_Transmission();
-  printf("2FSK packet transmission started at 915 MHz\r\n");
+  // Set up the radio for receiving
+  Configure_Rx_Mode();
+  printf("Listening for messages on channel %d...\r\n", RX_CHANNEL);
+  
+  // Start the radio in continuous receive mode
+  Radio.Rx(RX_TIMEOUT_VALUE);
 
   /* USER CODE END 2 */
 
@@ -126,14 +140,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-    // Transmit a new packet every 500ms
-    // The payload will increment to show a change in data
-    tx_buffer[0] = buffer_index++;
-    Radio.Send(tx_buffer, BUFFER_SIZE);
-    
     // Toggle the LED to show the program is still running.
-    HAL_GPIO_TogglePin(LD1_GPIO_Port, LD1_Pin);
-    HAL_Delay(500); // 500ms delay for LED blink
+    // HAL_GPIO_TogglePin(LD1_GPIO_Port, LD1_Pin);
+    // HAL_Delay(500); // 500ms delay for LED blink
     
     /* USER CODE END WHILE */
     MX_SubGHz_Phy_Process();
@@ -320,15 +329,8 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-// This function configures the radio for continuous carrier transmission at 915 MHz.
-void Configure_Continuous_Carrier(void)
-{
-  // Sets the radio to a continuous wave mode for transmission.
-  Radio.SetTxContinuousWave(RF_FREQUENCY, TX_OUTPUT_POWER, 0); // 915 MHz, 14 dBm, 0 timeout (continuous)
-}
-
-// This function configures the radio for 2FSK packet transmission.
-void Configure_2FSK_Transmission(void)
+// This function configures the radio for 2FSK packet reception.
+void Configure_Rx_Mode(void)
 {
   // Set the channel/frequency for the radio
   Radio.SetChannel(RF_FREQUENCY);
@@ -336,31 +338,32 @@ void Configure_2FSK_Transmission(void)
   // Set the public network setting
   Radio.SetPublicNetwork(true);
 
-  // Set the transmit configuration for FSK. All packet and modem parameters
-  // are included in this single function call for this library version.
-  Radio.SetTxConfig(
-      MODEM_FSK,                            // Modem type
-      TX_OUTPUT_POWER,                      // Output power in dBm
-      FSK_DEVIATION,                        // Frequency deviation in Hz
-      FSK_BANDWIDTH,                        // Bandwidth in Hz
-      FSK_DATARATE,                         // Data rate in bps
-      0,                                    // Coding rate (not used for FSK)
-      FSK_PREAMBLE_LENGTH,                  // Preamble length in symbols
-      false,                                // Fixed length packets
-      true,                                 // CRC enable
-      false,                                // Frequency hopping off
-      0,                                    // Hop period (not used)
-      false,                                // IQ inverted (not used for FSK)
-      TX_TIMEOUT_VALUE                      // Timeout in ms
+  // Set the receive configuration for FSK.
+  Radio.SetRxConfig(
+      MODEM_FSK,                           // Modem type
+      FSK_BANDWIDTH,                       // Bandwidth in Hz
+      FSK_DATARATE,                        // Data rate in bps
+      0,                                   // Coding rate (not used for FSK)
+      FSK_BANDWIDTH,                       // AFC bandwidth (same as main bandwidth for FSK)
+      FSK_PREAMBLE_LENGTH,                 // Preamble length in symbols
+      0,                                   // Symbol timeout (0 for continuous)
+      false,                               // Fixed length packets
+      0,                                   // Max payload length (0 for variable)
+      true,                                // CRC enable
+      false,                               // Frequency hopping off
+      0,                                   // Hop period (not used)
+      false,                               // IQ inverted (not used for FSK)
+      true                                 // Continuous receive
   );
-
-  // The sync word and packet parameters are configured automatically by SetTxConfig
-  // for FSK modulation. The default sync word and packet configuration are used.
   
-  // Initialize the TX buffer with some data
-  for (uint8_t i = 0; i < BUFFER_SIZE; i++) {
-    tx_buffer[i] = i;
-  }
+  // Set up the radio callbacks for receiving
+  RadioEvents_t RadioEvents;
+  RadioEvents.RxDone = OnRxDone;
+  RadioEvents.TxDone = NULL;
+  RadioEvents.TxTimeout = NULL;
+  RadioEvents.RxTimeout = NULL;
+  RadioEvents.RxError = NULL;
+  Radio.Init(&RadioEvents);
 }
 /* USER CODE END 4 */
 
