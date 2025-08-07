@@ -43,6 +43,18 @@
 },
 {
   "directory": "/Users/zachary/STtest/SingleWL55",
+  "command": "/usr/bin/cc -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64 -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include -g -std=gnu11 -arch arm64 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o -c /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c",
+  "file": "/Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o"
+},
+{
+  "directory": "/Users/zachary/STtest/SingleWL55",
+  "command": "/usr/bin/cc -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64 -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include -g -std=gnu11 -arch arm64 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o -c /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c",
+  "file": "/Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o"
+},
+{
+  "directory": "/Users/zachary/STtest/SingleWL55",
   "command": "/usr/bin/cc -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64 -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include -g -std=gnu11 -arch arm64 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o -c /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c",
   "file": "/Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c",
   "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o"
@@ -127,15 +139,9 @@
 },
 {
   "directory": "/Users/zachary/STtest/SingleWL55",
-  "command": "/usr/bin/cc -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64 -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include -g -std=gnu11 -arch arm64 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o -c /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c",
-  "file": "/Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c",
-  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o"
-},
-{
-  "directory": "/Users/zachary/STtest/SingleWL55",
-  "command": "/usr/bin/cc -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64 -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include -g -std=gnu11 -arch arm64 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o -c /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c",
-  "file": "/Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c",
-  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o"
+  "command": "/usr/bin/cc -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64 -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include -g -std=gnu11 -arch arm64 -o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.o -c /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c",
+  "file": "/Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c",
+  "output": "cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.o"
 },
 {
   "directory": "/Users/zachary/STtest/SingleWL55",

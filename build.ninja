@@ -57,8 +57,6 @@ build CMakeFiles/SingleWL55.dir/Core/Src/main.c.o: C_COMPILER__SingleWL55_unscan
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/SingleWL55.dir
   OBJECT_FILE_DIR = CMakeFiles/SingleWL55.dir/Core/Src
-  TARGET_COMPILE_PDB = CMakeFiles/SingleWL55.dir/
-  TARGET_PDB = SingleWL55.pdb
 
 build CMakeFiles/SingleWL55.dir/Core/Src/stm32wlxx_it.c.o: C_COMPILER__SingleWL55_unscanned_Debug /Users/zachary/STtest/SingleWL55/Core/Src/stm32wlxx_it.c || cmake_object_order_depends_target_SingleWL55
   CONFIG = Debug
@@ -68,8 +66,6 @@ build CMakeFiles/SingleWL55.dir/Core/Src/stm32wlxx_it.c.o: C_COMPILER__SingleWL5
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/SingleWL55.dir
   OBJECT_FILE_DIR = CMakeFiles/SingleWL55.dir/Core/Src
-  TARGET_COMPILE_PDB = CMakeFiles/SingleWL55.dir/
-  TARGET_PDB = SingleWL55.pdb
 
 build CMakeFiles/SingleWL55.dir/Core/Src/stm32wlxx_hal_msp.c.o: C_COMPILER__SingleWL55_unscanned_Debug /Users/zachary/STtest/SingleWL55/Core/Src/stm32wlxx_hal_msp.c || cmake_object_order_depends_target_SingleWL55
   CONFIG = Debug
@@ -79,8 +75,6 @@ build CMakeFiles/SingleWL55.dir/Core/Src/stm32wlxx_hal_msp.c.o: C_COMPILER__Sing
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/SingleWL55.dir
   OBJECT_FILE_DIR = CMakeFiles/SingleWL55.dir/Core/Src
-  TARGET_COMPILE_PDB = CMakeFiles/SingleWL55.dir/
-  TARGET_PDB = SingleWL55.pdb
 
 build CMakeFiles/SingleWL55.dir/Core/Src/sysmem.c.o: C_COMPILER__SingleWL55_unscanned_Debug /Users/zachary/STtest/SingleWL55/Core/Src/sysmem.c || cmake_object_order_depends_target_SingleWL55
   CONFIG = Debug
@@ -90,8 +84,6 @@ build CMakeFiles/SingleWL55.dir/Core/Src/sysmem.c.o: C_COMPILER__SingleWL55_unsc
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/SingleWL55.dir
   OBJECT_FILE_DIR = CMakeFiles/SingleWL55.dir/Core/Src
-  TARGET_COMPILE_PDB = CMakeFiles/SingleWL55.dir/
-  TARGET_PDB = SingleWL55.pdb
 
 build CMakeFiles/SingleWL55.dir/Core/Src/syscalls.c.o: C_COMPILER__SingleWL55_unscanned_Debug /Users/zachary/STtest/SingleWL55/Core/Src/syscalls.c || cmake_object_order_depends_target_SingleWL55
   CONFIG = Debug
@@ -101,8 +93,6 @@ build CMakeFiles/SingleWL55.dir/Core/Src/syscalls.c.o: C_COMPILER__SingleWL55_un
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/SingleWL55.dir
   OBJECT_FILE_DIR = CMakeFiles/SingleWL55.dir/Core/Src
-  TARGET_COMPILE_PDB = CMakeFiles/SingleWL55.dir/
-  TARGET_PDB = SingleWL55.pdb
 
 build CMakeFiles/SingleWL55.dir/startup_stm32wl55xx_cm4.s.o: ASM_COMPILER__SingleWL55_unscanned_Debug /Users/zachary/STtest/SingleWL55/startup_stm32wl55xx_cm4.s || cmake_object_order_depends_target_SingleWL55
   CONFIG = Debug
@@ -112,8 +102,6 @@ build CMakeFiles/SingleWL55.dir/startup_stm32wl55xx_cm4.s.o: ASM_COMPILER__Singl
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = CMakeFiles/SingleWL55.dir
   OBJECT_FILE_DIR = CMakeFiles/SingleWL55.dir
-  TARGET_COMPILE_PDB = CMakeFiles/SingleWL55.dir/
-  TARGET_PDB = SingleWL55.pdb
 
 
 # =============================================================================
@@ -123,15 +111,14 @@ build CMakeFiles/SingleWL55.dir/startup_stm32wl55xx_cm4.s.o: ASM_COMPILER__Singl
 #############################################
 # Link the executable SingleWL55
 
-build SingleWL55: C_EXECUTABLE_LINKER__SingleWL55_Debug cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wlxx.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.c.o CMakeFiles/SingleWL55.dir/Core/Src/main.c.o CMakeFiles/SingleWL55.dir/Core/Src/stm32wlxx_it.c.o CMakeFiles/SingleWL55.dir/Core/Src/stm32wlxx_hal_msp.c.o CMakeFiles/SingleWL55.dir/Core/Src/sysmem.c.o CMakeFiles/SingleWL55.dir/Core/Src/syscalls.c.o CMakeFiles/SingleWL55.dir/startup_stm32wl55xx_cm4.s.o || cmake/stm32cubemx/STM32_Drivers
+build SingleWL55: C_EXECUTABLE_LINKER__SingleWL55_Debug cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wlxx.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.c.o CMakeFiles/SingleWL55.dir/Core/Src/main.c.o CMakeFiles/SingleWL55.dir/Core/Src/stm32wlxx_it.c.o CMakeFiles/SingleWL55.dir/Core/Src/stm32wlxx_hal_msp.c.o CMakeFiles/SingleWL55.dir/Core/Src/sysmem.c.o CMakeFiles/SingleWL55.dir/Core/Src/syscalls.c.o CMakeFiles/SingleWL55.dir/startup_stm32wl55xx_cm4.s.o || cmake/stm32cubemx/STM32_Drivers
   CONFIG = Debug
   FLAGS = -g -arch arm64
   OBJECT_DIR = CMakeFiles/SingleWL55.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/SingleWL55.dir/
   TARGET_FILE = SingleWL55
-  TARGET_PDB = SingleWL55.pdb
+  TARGET_PDB = SingleWL55.dbg
 
 
 #############################################
@@ -179,173 +166,6 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
-
-build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c || cmake_object_order_depends_target_STM32_Drivers
-  CONFIG = Debug
-  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
-  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64
-  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
-  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
-  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
 
 build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
@@ -355,8 +175,150 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
+
+build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c || cmake_object_order_depends_target_STM32_Drivers
+  CONFIG = Debug
+  DEFINES = -DCORE_CM4 -DDEBUG -DSTM32WL55xx -DUSE_HAL_DRIVER -DUSE_NUCLEO_64
+  DEP_FILE = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64
+  INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
+  OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+  OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src
 
 build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.c.o: C_COMPILER__STM32_Drivers_unscanned_Debug /Users/zachary/STtest/SingleWL55/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.c || cmake_object_order_depends_target_STM32_Drivers
   CONFIG = Debug
@@ -366,15 +328,13 @@ build cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32WLxx
   INCLUDES = -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Core/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/STM32WLxx_HAL_Driver/Inc/Legacy -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/BSP/STM32WLxx_Nucleo -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32WLxx/Include -I/Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/../../Drivers/CMSIS/Include
   OBJECT_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
   OBJECT_FILE_DIR = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32WLxx_Nucleo
-  TARGET_COMPILE_PDB = cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/
-  TARGET_PDB = ""
 
 
 
 #############################################
 # Object library STM32_Drivers
 
-build cmake/stm32cubemx/STM32_Drivers: phony cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wlxx.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.c.o
+build cmake/stm32cubemx/STM32_Drivers: phony cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Core/Src/system_stm32wlxx.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_uart_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_rcc_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_flash_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_gpio.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_dma_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_pwr_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_cortex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_exti.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_usart_ex.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/STM32WLxx_HAL_Driver/Src/stm32wlxx_hal_subghz.c.o cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir/__/__/Drivers/BSP/STM32WLxx_Nucleo/stm32wlxx_nucleo.c.o
 
 
 #############################################
@@ -429,14 +389,14 @@ build cmake/stm32cubemx/all: phony cmake/stm32cubemx/STM32_Drivers
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja /Users/zachary/STtest/SingleWL55/cmake_install.cmake /Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/cmake_install.cmake: RERUN_CMAKE | /opt/homebrew/share/cmake/Modules/CMakeASMCompiler.cmake.in /opt/homebrew/share/cmake/Modules/CMakeASMInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCCompiler.cmake.in /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c /opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake /opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeNinjaFindMake.cmake /opt/homebrew/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /opt/homebrew/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /opt/homebrew/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/share/cmake/Modules/CMakeTestASMCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake /opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang-ASM.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /opt/homebrew/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeASMLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectASMLinker.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake /opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake /opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.0.3/CMakeASMCompiler.cmake CMakeFiles/4.0.3/CMakeCCompiler.cmake CMakeFiles/4.0.3/CMakeCXXCompiler.cmake CMakeFiles/4.0.3/CMakeSystem.cmake CMakeLists.txt cmake/stm32cubemx/CMakeLists.txt
+build build.ninja /Users/zachary/STtest/SingleWL55/cmake_install.cmake /Users/zachary/STtest/SingleWL55/cmake/stm32cubemx/cmake_install.cmake: RERUN_CMAKE | /opt/homebrew/share/cmake/Modules/CMakeASMInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang-ASM.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeASMLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake /opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.0.3/CMakeASMCompiler.cmake CMakeFiles/4.0.3/CMakeCCompiler.cmake CMakeFiles/4.0.3/CMakeCXXCompiler.cmake CMakeFiles/4.0.3/CMakeSystem.cmake CMakeLists.txt cmake/stm32cubemx/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /opt/homebrew/share/cmake/Modules/CMakeASMCompiler.cmake.in /opt/homebrew/share/cmake/Modules/CMakeASMInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCCompiler.cmake.in /opt/homebrew/share/cmake/Modules/CMakeCCompilerABI.c /opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCXXCompiler.cmake.in /opt/homebrew/share/cmake/Modules/CMakeCXXCompilerABI.cpp /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/share/cmake/Modules/CMakeCompilerIdDetection.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineASMCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerId.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake /opt/homebrew/share/cmake/Modules/CMakeDetermineSystem.cmake /opt/homebrew/share/cmake/Modules/CMakeFindBinUtils.cmake /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeNinjaFindMake.cmake /opt/homebrew/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /opt/homebrew/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /opt/homebrew/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /opt/homebrew/share/cmake/Modules/CMakeSystem.cmake.in /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/share/cmake/Modules/CMakeTestASMCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeTestCCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeTestCXXCompiler.cmake /opt/homebrew/share/cmake/Modules/CMakeTestCompilerCommon.cmake /opt/homebrew/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang-ASM.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /opt/homebrew/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /opt/homebrew/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeASMLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectASMLinker.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCLinker.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeInspectCXXLinker.cmake /opt/homebrew/share/cmake/Modules/Internal/FeatureTesting.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin-Determine-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake /opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.0.3/CMakeASMCompiler.cmake CMakeFiles/4.0.3/CMakeCCompiler.cmake CMakeFiles/4.0.3/CMakeCXXCompiler.cmake CMakeFiles/4.0.3/CMakeSystem.cmake CMakeLists.txt cmake/stm32cubemx/CMakeLists.txt: phony
+build /opt/homebrew/share/cmake/Modules/CMakeASMInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake /opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake /opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang-ASM.cmake /opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake /opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeASMLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake /opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-ASM.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-C.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake /opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake /opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/4.0.3/CMakeASMCompiler.cmake CMakeFiles/4.0.3/CMakeCCompiler.cmake CMakeFiles/4.0.3/CMakeCXXCompiler.cmake CMakeFiles/4.0.3/CMakeSystem.cmake CMakeLists.txt cmake/stm32cubemx/CMakeLists.txt: phony
 
 
 #############################################
