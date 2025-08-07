@@ -2,5 +2,7 @@
 /Users/zachary/STtest/SingleWL55/build/Debug/CMakeFiles/edit_cache.dir
 /Users/zachary/STtest/SingleWL55/build/Debug/CMakeFiles/rebuild_cache.dir
 /Users/zachary/STtest/SingleWL55/build/Debug/cmake/stm32cubemx/CMakeFiles/STM32_Drivers.dir
+/Users/zachary/STtest/SingleWL55/build/Debug/cmake/stm32cubemx/CMakeFiles/Utilities.dir
+/Users/zachary/STtest/SingleWL55/build/Debug/cmake/stm32cubemx/CMakeFiles/SubGHz_Phy.dir
 /Users/zachary/STtest/SingleWL55/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
 /Users/zachary/STtest/SingleWL55/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
