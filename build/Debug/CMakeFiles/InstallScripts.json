@@ -1,8 +1,8 @@
 {
 	"InstallScripts" : 
 	[
-		"/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/cmake_install.cmake",
-		"/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
+		"/Users/zachary/STtest/SingleWL55/build/Debug/cmake_install.cmake",
+		"/Users/zachary/STtest/SingleWL55/build/Debug/cmake/stm32cubemx/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

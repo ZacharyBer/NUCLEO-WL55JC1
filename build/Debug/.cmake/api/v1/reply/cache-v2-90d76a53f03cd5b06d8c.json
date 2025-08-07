@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug"
+			"value" : "/Users/zachary/STtest/SingleWL55/build/Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -635,7 +635,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/zachary/STtest/SingleWL55/build/Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -695,7 +695,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main"
+			"value" : "/Users/zachary/STtest/SingleWL55"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1183,11 +1183,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
+					"value" : "The CMake toolchain file"
 				}
 			],
-			"type" : "UNINITIALIZED",
-			"value" : "/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/cmake/gcc-arm-none-eabi.cmake"
+			"type" : "FILEPATH",
+			"value" : "/Users/zachary/STtest/SingleWL55/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug"
+			"value" : "/Users/zachary/STtest/SingleWL55/build/Debug"
 		},
 		{
 			"name" : "SingleWL55_IS_TOP_LEVEL",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main"
+			"value" : "/Users/zachary/STtest/SingleWL55"
 		}
 	],
 	"kind" : "cache",

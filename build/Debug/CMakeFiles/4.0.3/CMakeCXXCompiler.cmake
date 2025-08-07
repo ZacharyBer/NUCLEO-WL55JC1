@@ -1,7 +1,7 @@
 set(CMAKE_CXX_COMPILER "/opt/homebrew/bin/arm-none-eabi-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
-set(CMAKE_CXX_COMPILER_VERSION "14.3.1")
+set(CMAKE_CXX_COMPILER_VERSION "14.2.1")
 set(CMAKE_CXX_COMPILER_VERSION_INTERNAL "")
 set(CMAKE_CXX_COMPILER_WRAPPER "")
 set(CMAKE_CXX_STANDARD_COMPUTED_DEFAULT "17")
@@ -90,7 +90,7 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1;/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/arm-none-eabi/thumb/v7e-m/nofp;/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.3.1/backward;/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include;/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.3.1/include-fixed;/Applications/ArmGNUToolchain/14.3.rel1/arm-none-eabi/arm-none-eabi/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1;/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/arm-none-eabi/thumb/v7e-m/nofp;/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/14.2.1/backward;/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include;/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include-fixed;/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

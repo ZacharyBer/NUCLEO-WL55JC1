@@ -1,4 +1,4 @@
-# Install script for directory: /Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main
+# Install script for directory: /Users/zachary/STtest/SingleWL55
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/cmake/stm32cubemx/cmake_install.cmake")
+  include("/Users/zachary/STtest/SingleWL55/build/Debug/cmake/stm32cubemx/cmake_install.cmake")
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/install_local_manifest.txt"
+  file(WRITE "/Users/zachary/STtest/SingleWL55/build/Debug/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/build/Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/Users/zachary/STtest/SingleWL55/build/Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

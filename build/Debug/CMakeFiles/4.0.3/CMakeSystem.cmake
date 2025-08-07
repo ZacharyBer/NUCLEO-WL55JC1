@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Darwin-24.3.0")
+set(CMAKE_HOST_SYSTEM "Darwin-24.6.0")
 set(CMAKE_HOST_SYSTEM_NAME "Darwin")
-set(CMAKE_HOST_SYSTEM_VERSION "24.3.0")
+set(CMAKE_HOST_SYSTEM_VERSION "24.6.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "arm64")
 
-include("/Users/henryspeiser/Downloads/NUCLEO-WL55JC1-main/cmake/gcc-arm-none-eabi.cmake")
+include("/Users/zachary/STtest/SingleWL55/cmake/gcc-arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")
