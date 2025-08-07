@@ -34,7 +34,9 @@
 					"source" : "cmake/stm32cubemx",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						2,
+						3
 					]
 				}
 			],
@@ -51,7 +53,9 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2,
+						3
 					]
 				}
 			],
@@ -60,15 +64,29 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-54348dedde7af0b5691a.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-48703ad4edde6fb87811.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SingleWL55::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SingleWL55-Debug-9cc52f0db828d0d2f8c1.json",
+					"jsonFile" : "target-SingleWL55-Debug-76e5cf59e1eaa8e3cfba.json",
 					"name" : "SingleWL55",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "SubGHz_Phy::@768a070a0fe75716b479",
+					"jsonFile" : "target-SubGHz_Phy-Debug-6fb588488cef4a708505.json",
+					"name" : "SubGHz_Phy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Utilities::@768a070a0fe75716b479",
+					"jsonFile" : "target-Utilities-Debug-574150d3ea8d2d5a7ade.json",
+					"name" : "Utilities",
 					"projectIndex" : 0
 				}
 			]
